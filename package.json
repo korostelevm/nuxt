@@ -5,8 +5,8 @@
   "main":"nuxt.config.js",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build && mkdir -p ./bin && ls -la && ls -la node_modules/.bin && cp -r node_modules/.bin/* ./bin && cp node_modules/nuxt/bin/nuxt.js ./bin && ls -la ./bin",
-    "start": "ls -la && ls -la ./bin && node bin/nuxt.js start",
+    "build": "nuxt build && mkdir -p ./bin && ls -la && ls -la node_modules/.bin && cp -r node_modules/.bin ./bin && cp node_modules/nuxt/bin/nuxt.js ./bin && ls -la ./bin",
+    "start": "ls -la && ls -la ./bin && npx nuxt start",
     "generate": "nuxt generate",
     "lint": "yarn lint:js",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore ."
