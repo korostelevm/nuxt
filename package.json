@@ -2,10 +2,10 @@
   "name": "nuxt-express",
   "version": "1.0.0",
   "private": true,
+  "main":".nuxt/server.js",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "./node_modules/.bin/nuxt",
     "generate": "nuxt generate",
     "lint": "yarn lint:js",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore ."
