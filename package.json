@@ -5,7 +5,7 @@
   "main":"nuxt.config.js",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build  && mkdir -p bin && mv node_modules/.bin ./bin",
+    "build": "nuxt build  && mkdir -p bin && mv node_modules/.bin ./bin/",
     "start": "ls -la && ls -la ./bin &&  ls -la ./bin/bin  && ./bin/.bin/nuxt start",
     "generate": "nuxt generate",
     "lint": "yarn lint:js",
