@@ -2,7 +2,7 @@
   "name": "nuxt-express",
   "version": "1.0.0",
   "private": true,
-  "main":"dist/dist/server.js",
+  "main":"./build/dist/server.js",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
