@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build && mkdir -p ./bin && cp -r node_modules/.bin/* ./bin",
-    "start": "ls -la && cd build && ls -la && ls -la ./bin &&  ./bin/nuxt start",
+    "start": "ls -la && ls -la bin && ./bin/nuxt start",
     "generate": "nuxt generate",
     "lint": "yarn lint:js",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore ."
